@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" /><script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+  <nav class="bg-gray-800 flex justify-between items-center">
+    <div class="p-4 text-4xl font-bold text-white">
+      Saasly
+    </div>
+    <ul class="desktop flex flex-row space-x-8 p-4 text-white">
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#home">Home</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#features">Features</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#pricing">Pricing</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- mobile icon -->
+    <div class="mb-icon md:hidden bg-blue-600 items-end mr-5">
+      <button class="text-2xl text-white">&#9776;</button>
+    </div>
+  </nav>
+  <div class="mb bg-gray-900  md:hidden bg-blue-600 p-4 text-white">
+    <ul class="flex flex-col p-4 text-white">
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#home">Home</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#features">Features</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#pricing">Pricing</a></li>
+      <li class="p-2 hover:bg-gray-700 rounded"><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <!--hero section-->
+  <section id="home" class="bg-gray-900 justify-between items-center flex flex-col md:flex-row h-130">
+    <div class="items-center space-x-4 text-center md:text-left md:w-1/2">
+      <h1 class="text-white-900 text-4xl text-center font-bold">Build Your SaaS Website Faster.</h1>
+      <p class="text-center text-gray-300">tailwind css lets you build modern, responsive designs without writing
+        Css
+        Customs.</p>
+      <button class="bg-blue-800 text-white px-8 py-2 rounded mt-4 hover:bg-blue-700 block ">Get
+        Started</button>
+    </div>
+    <div class="md:w-1/2 p-4">
+      <img
+        src="https://media.istockphoto.com/id/1488105061/photo/the-power-of-ai-transforming-industries-and-customer-service-a-look-into-the-future-yellow-ai.webp?a=1&b=1&s=612x612&w=0&k=20&c=SFHSTHDJvSdl_bgVKSfb6qiGuAisPUQ_8Iwb-eFVi24="
+        alt="Hero Image" class="mx-auto rounded-lg shadow-lg" />
+    </div>
+  </section>
+  <!--features section-->
+  <section id="features" class="bg-gray-800 text-white items-center px-6 py-12">
+    <h2 class="text-3xl text-center mb-5"> Core Features</h2>
+    <div class="grid grid-cols-12 gap-8 ">
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Fast Performance</h1>
+        <p class="text-gray-300">Optimized for speed and efficiency</p>
+
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Responsive Design</h1>
+        <p class="text-gray-300">Mobile-First layout for all devices</p>
+
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Easy Customization</h1>
+        <p class="text-gray-300">Customize your site with ease</p>
+      </div>
+    </div>
+  </section>
+  <!--pricing plan---->
+  <section id="pricing" class="bg-gray-900 items-center px-6 py-12">
+    <h2 class="text-semibold text-4xl text-center pb-4">Pricing Plans</h2>
+    <div class="grid grid-cols-12 gap-8 ">
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Basic</h1>
+        <p class="text-blue-300">$19/month</p>
+        <p class="text-gray-900">✔️1 Project</p>
+        <P class="text-gray-900">✔️Basic Support</P>
+        <button class="bg-blue-800 text-white px-4 py-2 rounded mt-4 hover:bg-blue-700">Choose Plan</button>
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Pro</h1>
+        <p class="text-blue-300">$49/month</p>
+        <p class="text-gray-900">✔️10 Projects</p>
+        <p class="text-gray-900">✔️Priority Support</p>
+        <button class="bg-blue-800 text-white px-4 py-2 rounded mt-4 hover:bg-blue-700">Choose Plan</button>
+      </div>
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 rounded text-center bg-gray-700 py-8">
+        <h1 class="text-white">Enterprise</h1>
+        <p class="text-blue-300">$99/month</p>
+        <p class="text-gray-900">✔️Unlimited Projects</p>
+        <p class="text-gray-900">✔️24/7 Support</p>
+        <button class="bg-blue-800 text-white px-4 py-2 rounded mt-4 hover:bg-blue-700">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+  <!--contact section-->
+  <section id="contact" class="bg-gray-800 py-12 px-6 mx-auto">
+    <h1 class="text-3xl text-center text-white pb-3">Contact Us</h1>
+    <div class="bg-gray-900 px-6 py-6 mx-auto rounded-lg h-120 w-160 ">
+      <form class="max-w-2xl mx-auto bg-gray-900 rounded shadow w-full p-6">
+        <div class="flex flex-row grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input type="text" placeholder="first Name"
+            class="w-full p-2 mb-4 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500" />
+          <input type="text" placeholder="last Name"
+            class="w-full p-2 mb-4 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500" />
+        </div>
+        <div>
+          <input type="email" placeholder="Email"
+            class="w-full p-2 mb-4 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500" />
+        </div>
+        <div>
+        <input placeholder="Message"
+            class="w-full h-30 mb-4 rounded bg-gray-700 text-white border border-gray-600 focus:outline-none focus:border-blue-500">
+        </input></div>
+        <label class="inline-flex items-center space-x-2"><input type="checkbox"
+            class="form-checkbox text-blue-500 w-5 h-5">
+          <span class="text-gray-700 text-sm"> I agree to the terms and conditions</span>
+        </label>
+        <button type="submit" class="bg-blue-700 text-white font-semibold py-2 px-4 w-full">Submit</button>
+
+      </form>
+    </div>
+  </section>
+  <!--footer section-->
+  <footer class="bg-gray-900 text-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+      <div>
+        <h1 class="text-white ">Saasly</h1>
+        <p class="text-gray-300">&copy; 2025 All rights reserved.</p>
+      </div>
+      <div>
+        <h1 class="text-white">Links</h1>
+        <a href="#home" class="text-blue-500 hover:underline mx-2">Home</a><br>
+        <a href="#pricing" class="text-blue-500 hover:underline mx-2">Pricing</a>
+      </div>
+      <div>
+        <h1 class="text-white">Follow Us</h1>
+        <div class="flex space-x-4 mb-4">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-6 h-6" />
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="w-6 h-6" />
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" class="w-6 h-6" />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const desktopMenu = document.querySelector('.desktop');
+    const mobileMenu = document.querySelector('.mb');
+    const mobileIcon = document.querySelector('.mb-icon');
+
+    mobileIcon.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Hide mobile menu on desktop view
+    window.addEventListener('resize', () => {
+      if (window.innerWidth >= 768) {
+        mobileMenu.classList.add('hidden');
+      } else {
+        desktopMenu.classList.add('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
