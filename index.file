@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form </title>
+</head>
+<body>
+    <form>
+    <caption><b>REGISTRATION FORM</b></caption>
+    <table>
+        <caption> Personal information</caption>
+    
+           <tr><td> Name: <input type="text" name="fname"></td></tr>
+            <br>
+           <tr> <td> Date of birth: <input type="date"></td></tr>
+           <tr> <td> Gender:</td><td> <input type="radio" name="gender" size="">male<input type="radio" name="gender" size="">female<input type="radio" name="gender" size="">other</td></tr>
+            
+    </table>
+    <br>
+    <table>
+    
+            <caption>Contact information</caption>
+            <tr><td>Email: <input type="email" name="your@gmail"></td></tr>
+            <tr><td>Phone Number: <input type="number" name="number"></td></tr>
+            <tr> <td> Address:<input type="text"></td></tr>
+          
+    </table>
+    <br>
+    <table>
+        <caption>Account details</caption>
+        <tr> <td> username: <input type="text"></td></tr>
+        <tr> <td> Password:<input type="password"></td></tr>
+        <tr> <td> confirm password: <input type="password"></td></tr>
+    </table>
+    <br>
+    <table>
+        <caption>Preferences</caption>
+        <tr><td>Favourite colour:<input type="color"></td></tr>
+        <tr> <td> Upload profile picture: <input type="file"></td></tr>
+        <tr><td> Interests:<input type="radio" name="interest" size="">reading<input type="radio" name="interest" size="">writing<input type="radio" name="interest" size="">coding</td></tr>
+    </table>
+    <br>
+    <input type="submit">
+    </form>
+</body>
+</html>
